@@ -1,0 +1,30 @@
+{
+  "name": "项目名称",
+  "description": "项目名称",
+  "keywords": [
+    "VMess VLESS"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "协议VMess或VLESS，请填小写的vmess或vless",
+      "value": "vless",
+      "required": true
+    },
+    "UUID": {
+      "description": "用户的主ID",
+      "value": "",
+      "required": false
+    },
+    "WS_PATH": {
+      "description": "websocket路径",
+      "value": "/app",
+      "required": true
+    }
+  },
+  "website": "https://github.com/zshhsdncdffjijdinfjkndrijijij/vhvctggcfchbjbnh",
+  "repository": "https://github.com/zshhsdncdffjijdinfjkndrijijij/vhvctggcfchbjbnh",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
